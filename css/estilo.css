@@ -1,0 +1,69 @@
+:root{
+    --texto : black;
+    --fondo2 : purple;
+    --Colortexto : white;
+    --inicio : red;
+    --letra1 : blue;
+    --letra2 : grey;
+    --hover1 : green;
+    --hover2 : gold ;
+   
+
+}
+.black-box{
+    background-color: var(--Fondodiv);
+    color: var(--Colortexto);
+}
+
+.menu a{
+    margin-top: 25px;
+    background-color: var(--Colortexto);
+    color: var(--texto);
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+
+}
+nav a.inicio {
+    background-color: var(--inicio);
+    color: azure;
+    padding: 20px;
+    border-radius: 15px;
+    
+} 
+nav a.primer{
+    background-color: var(--letra1);
+}
+nav a.segundo{
+    background-color: var(--letra2);
+
+}
+nav a.tercer {
+    background-color: var(--fondo2);
+    
+}
+nav a.inicio:hover{
+    background-color: var(--hover1);
+}
+nav a.primer:hover, .segundo:hover, .tercer:hover{
+    background-color: var(--hover2);
+}
+body{
+    font-family: arial;
+    font-size: 16px;
+}
+.tema{
+    padding: 50px;
+    
+}
+.texto{
+
+    color: var(--texto);
+    text-align: center;
+    padding: 50px;
+    
+}
